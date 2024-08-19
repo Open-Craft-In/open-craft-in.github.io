@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="scrollbar-gutter: stable;">
+<html lang="en" class="h-full" style="scrollbar-gutter: stable;">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="assets/base.css">
     <script defer type="text/javascript" src="assets/base.js"></script>
   </head>
-  <body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white antialiased">
+  <body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white antialiased flex flex-col min-h-full">
     <header>
       <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <a href="/" class="flex items-center">
             <img src="images/logo-crop.png" class="mr-3 h-6 sm:h-9" alt="OpenCraft.in Logo">
-            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">OpenCraft</span>
+            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
           </a>
           <div class="flex items-center lg:order-2">
-            <a href="https://cal.com/opencraft" target="_blank" rel="noopener noreferrer" class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">
+            <a href="https://cal.com/opencraft" target="_blank" rel="noopener noreferrer" class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               Get in touch
             </a>
             <a href="index.html" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Home</a>
@@ -28,12 +28,12 @@
       </nav>
     </header>
 
-    <main class="px-4 py-8 sm:px-6 lg:px-8">
+    <main class="flex-grow px-4 py-8 sm:px-6 lg:px-8">
       <div class="max-w-screen-xl mx-auto">
-        <h1 class="text-4xl font-extrabold tracking-tight mb-8">Contact Us</h1>
+        <h1 class="text-4xl font-extrabold tracking-tight mb-8 text-center mx-auto max-w-2xl">Contact Us</h1>
         
-        <div class="grid md:grid-cols-2 gap-8">
-          <div>
+        <div class="max-w-screen-md mx-auto p-6">
+          <div class="mb-8">
             <p class="mb-4">We'd love to hear from you! Please fill out the form below or use one of our other contact methods.</p>
             <div class="mb-4">
               <h2 class="text-2xl font-bold mb-2">Other Ways to Reach Us</h2>
@@ -87,6 +87,7 @@
             </a>
           </div>
         </div>
-      </div></div>
+      </div>
+    </footer>
   </body>
 </html>
