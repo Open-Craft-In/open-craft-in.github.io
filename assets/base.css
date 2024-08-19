@@ -3160,6 +3160,18 @@ input:checked+.toggle-bg {
     }
 }
 
+.project-image {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+@media (max-width: 640px) {
+  .project-image {
+    aspect-ratio: auto;
+    height: 200px;
+  }
+}
+
 @media (min-width: 1024px) {
     .lg\:format-lg {
         font-size:1.125rem;
